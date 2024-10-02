@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Documents/lol"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "siteDeRoupa"
+	}
+}

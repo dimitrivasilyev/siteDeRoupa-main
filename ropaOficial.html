@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByWonder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            gap: 80px;
+            justify-content: center;
+            padding-right: 17%;
+
+        }
+
+        header {
+            padding: 10px;
+            text-align: center;
+            background-color: black;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #area-postagens {
+            background-color: white;
+            margin: 1rem;
+        }
+
+        #divBusca{
+            background-color:white;
+            border:solid 2px white;
+            border-radius:10px;
+            width:300px;
+            height:32px;
+            border-style: none;
+        }
+
+        #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left:5px;
+        font-size:16px;   
+        border:none;
+        height:36px;
+        width:190px;
+        }
+
+        #btnBusca{
+        border:none;
+        float:left;
+        height: 30px;
+        border-radius:0 7px 7px 0;
+        width: 75px;
+        font-weight:bold;
+        background: white 
+        }
+
+        #btnBusca:hover{
+            cursor: pointer;
+        }
+
+        #divBusca img{
+        float:left;
+        
+        }
+
+        footer{
+            display: flex;
+            padding: 16px 24px;
+            text-align: center;
+            background-color: black;
+            width: 100%;
+            bottom: 0;
+            color: #b0bdca;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="area-logo">
+            <img src="logo.png" height="80" width="250">
+        </div>
+
+        <nav>
+            <form method="post" action="bankai.jpg">
+                <div id="divBusca">
+                    <img src="lupa.png" height="30" width="30" alt="Buscar..."/>
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    <button id="btnBusca">Buscar</button>   
+                </div>
+            </form>
+            <a href="ropaOficial.html">Home</a>
+            <a href="calcados.html">Calçados</a>
+            <a href="camiseta.html">Camisetas</a>
+            <a href="calça.html">Calça</a>
+            <a href="vestido.html">Vestidos</a>
+        </nav>
+       
+    </header>
+    <div id="area-postagens">
+        <div class="container-slider">
+            <button id="prev-button"><img src="arrow.png" alt="prev-button"></button>
+            <div class="container-images">
+              <img src="gt1.jpg" class="slider">
+              <img src="gt2.jpg" class="slider on">
+              <img src="gt3.jpg" class="slider">
+              <img src="Liquida.jpg" class="slider">
+            </div>
+            <button id="next-button"><img src="arrow.png" alt="next-button"></button>
+          </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+        </p>   
+    <footer>
+        <p>®ByWonder. Todos os direitos reservados
+        R. Bernardino José de Oliveira, 81 - Badenfurt, Blumenau - SC, 89070-270</p>
+    </footer> 
+</body>
+</html>
