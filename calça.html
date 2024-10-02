@@ -44,9 +44,22 @@
             background-color: white;
             margin: 1rem;
             text-align: center;
-            display: flex;
+            display: grid;
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: center;
+            gap: 20px;
+            grid-template-columns: repeat(4, 0fr);
+        }
+
+        footer{
+            display: flex;
+            padding: 16px 24px;
+            text-align: center;
+            background-color: black;
+            width: 100%;
+            bottom: 0;
+            color: #b0bdca;
+            margin-top: 50px;
         }
 
         #divBusca{
@@ -133,4 +146,9 @@
         <div class="tenis"><img src="jeans.jpg" width="390" height="390" alt=""><span>R$ 550</span></div>
         <div class="tenis"><img src="jeans.jpg" width="390" height="390" alt=""><span>R$ 550</span></div>
         <div class="tenis"><img src="jeans.jpg" width="390" height="390" alt=""><span>R$ 550</span></div>
-    <div id="area-principal">
+<footer>
+    <p>®ByWonder. Todos os direitos reservados
+    R. Bernardino José de Oliveira, 81 - Badenfurt, Blumenau - SC, 89070-270</p>
+</footer> 
+</body>
+</html>
